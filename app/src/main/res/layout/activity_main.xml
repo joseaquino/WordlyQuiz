@@ -126,6 +126,7 @@
                     android:layout_marginTop="76dp"
                     android:background="@drawable/header_bg_mask" />
 
+                <!-- Question 1 -->
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -242,6 +243,7 @@
 
                 </RelativeLayout>
 
+                <!-- Question 2-->
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -324,6 +326,7 @@
 
                 </RelativeLayout>
 
+                <!-- Question 3 -->
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -385,6 +388,7 @@
 
                 </RelativeLayout>
 
+                <!-- Question 4 -->
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
