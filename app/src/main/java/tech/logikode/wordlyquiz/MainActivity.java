@@ -62,6 +62,24 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
+     * Checks question four RadioGroup to see if an option has been selected and set the
+     * answered indicator at the top accordingly, providing feedback to user if the question has
+     * already been provided an answer.
+     *
+     * @param v
+     */
+    public void checkQuestionFourAnswered(View v) {
+        RadioGroup radioGroup = findViewById(R.id.qFourRadioGroup);
+        View answerIndicator = findViewById(R.id.qFourAnsweredIndicator);
+
+        if (radioGroup.getCheckedRadioButtonId() == -1) {
+            answerIndicator.setBackgroundResource(R.drawable.not_answered_indicator);
+        } else {
+            answerIndicator.setBackgroundResource(R.drawable.answered_indicator);
+        }
+    }
+
+    /**
      * Listens to the question three EditText for changes and if it is not empty it will
      * set the answered indicator at the top in green to provide feedback to the user that
      * the third question has received an answer

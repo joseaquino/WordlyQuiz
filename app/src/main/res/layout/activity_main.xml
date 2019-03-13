@@ -50,6 +50,7 @@
 
         <!-- Question 4 answered indicator -->
         <View
+            android:id="@+id/qFourAnsweredIndicator"
             android:layout_width="0dp"
             android:layout_height="8dp"
             android:layout_marginLeft="6dp"
@@ -446,6 +447,7 @@
                             android:textSize="16sp" />
 
                         <RadioGroup
+                            android:id="@+id/qFourRadioGroup"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:orientation="vertical"
@@ -459,6 +461,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="6dp"
                                 android:layout_marginBottom="6dp"
+                                android:onClick="checkQuestionFourAnswered"
                                 android:text="Australia" />
 
                             <RadioButton
@@ -466,6 +469,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="6dp"
                                 android:layout_marginBottom="6dp"
+                                android:onClick="checkQuestionFourAnswered"
                                 android:text="United States" />
 
                             <RadioButton
@@ -473,6 +477,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="6dp"
                                 android:layout_marginBottom="6dp"
+                                android:onClick="checkQuestionFourAnswered"
                                 android:text="India" />
 
                             <RadioButton
@@ -480,6 +485,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="6dp"
                                 android:layout_marginBottom="6dp"
+                                android:onClick="checkQuestionFourAnswered"
                                 android:text="Russia" />
                         </RadioGroup>
 
