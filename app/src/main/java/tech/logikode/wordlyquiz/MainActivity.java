@@ -89,10 +89,10 @@ public class MainActivity extends AppCompatActivity {
      * @param v
      */
     public void checkQuestionSixAnswered(View v) {
-        CheckBox optOne = findViewById(R.id.qSixeOptOne);
-        CheckBox optTwo = findViewById(R.id.qSixeOptTwo);
-        CheckBox optThree = findViewById(R.id.qSixeOptThree);
-        CheckBox optFour = findViewById(R.id.qSixeOptFour);
+        CheckBox optOne = findViewById(R.id.qSixOptOne);
+        CheckBox optTwo = findViewById(R.id.qSixOptTwo);
+        CheckBox optThree = findViewById(R.id.qSixOptThree);
+        CheckBox optFour = findViewById(R.id.qSixOptFour);
         View answerIndicator = findViewById(R.id.qFiveAnsweredIndicator);
 
         if (optOne.isChecked() || optTwo.isChecked() || optThree.isChecked() || optFour.isChecked()) {

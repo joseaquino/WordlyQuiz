@@ -611,7 +611,7 @@
                             android:paddingBottom="6dp">
 
                             <CheckBox
-                                android:id="@+id/qSixeOptOne"
+                                android:id="@+id/qSixOptOne"
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
@@ -620,7 +620,7 @@
                                 android:textSize="16sp" />
 
                             <CheckBox
-                                android:id="@+id/qSixeOptTwo"
+                                android:id="@+id/qSixOptTwo"
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
@@ -639,7 +639,7 @@
                             android:paddingBottom="6dp">
 
                             <CheckBox
-                                android:id="@+id/qSixeOptThree"
+                                android:id="@+id/qSixOptThree"
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
@@ -648,7 +648,7 @@
                                 android:textSize="16sp" />
 
                             <CheckBox
-                                android:id="@+id/qSixeOptFour"
+                                android:id="@+id/qSixOptFour"
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
