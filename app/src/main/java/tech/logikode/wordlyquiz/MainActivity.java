@@ -81,6 +81,27 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
+     * Checks question six to see if an option has been selected and set the
+     * answered indicator at the top accodingly, providing feedback to the user if the question has
+     * already been provided an answer.
+     * 
+     * @param v
+     */
+    public void checkQuestionSixAnswered(View v) {
+        CheckBox optOne = findViewById(R.id.qSixeOptOne);
+        CheckBox optTwo = findViewById(R.id.qSixeOptTwo);
+        CheckBox optThree = findViewById(R.id.qSixeOptThree);
+        CheckBox optFour = findViewById(R.id.qSixeOptFour);
+        View answerIndicator = findViewById(R.id.qFiveAnsweredIndicator);
+
+        if(optOne.isChecked() || optTwo.isChecked() || optThree.isChecked() || optFour.isChecked()) {
+            answerIndicator.setBackgroundResource(R.drawable.answered_indicator);
+        } else {
+            answerIndicator.setBackgroundResource(R.drawable.not_answered_indicator);
+        }
+    }
+
+    /**
      * Listens to the question three EditText for changes and if it is not empty it will
      * set the answered indicator at the top in green to provide feedback to the user that
      * the third question has received an answer

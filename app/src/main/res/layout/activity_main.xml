@@ -74,6 +74,7 @@
 
         <!-- Question 6 answered indicator -->
         <View
+            android:id="@+id/qSixAnsweredIndicator"
             android:layout_width="0dp"
             android:layout_height="8dp"
             android:layout_marginLeft="6dp"
@@ -608,16 +609,20 @@
                             android:paddingBottom="6dp">
 
                             <CheckBox
+                                android:id="@+id/qSixeOptOne"
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:onClick="checkQuestionSixAnswered"
                                 android:text="Pangolins"
                                 android:textSize="16sp" />
 
                             <CheckBox
+                                android:id="@+id/qSixeOptTwo"
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:onClick="checkQuestionSixAnswered"
                                 android:text="White Rhino"
                                 android:textSize="16sp" />
                         </LinearLayout>
@@ -632,16 +637,20 @@
                             android:paddingBottom="6dp">
 
                             <CheckBox
+                                android:id="@+id/qSixeOptThree"
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:onClick="checkQuestionSixAnswered"
                                 android:text="Spix's Macaw"
                                 android:textSize="16sp" />
 
                             <CheckBox
+                                android:id="@+id/qSixeOptFour"
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:onClick="checkQuestionSixAnswered"
                                 android:text="Red Panda"
                                 android:textSize="16sp" />
                         </LinearLayout>
