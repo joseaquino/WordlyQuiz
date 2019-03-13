@@ -24,6 +24,7 @@
             android:background="@drawable/not_answered_indicator" />
 
         <View
+            android:id="@+id/qTwoAnsweredIndicator"
             android:layout_width="0dp"
             android:layout_height="8dp"
             android:layout_marginLeft="6dp"
@@ -285,6 +286,7 @@
                             android:textSize="16sp" />
 
                         <RadioGroup
+                            android:id="@+id/qTwoRadioGroup"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:orientation="vertical"
@@ -298,6 +300,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="6dp"
                                 android:layout_marginBottom="6dp"
+                                android:onClick="checkQuestionTwoAnswered"
                                 android:text="Queensland" />
 
                             <RadioButton
@@ -305,6 +308,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="6dp"
                                 android:layout_marginBottom="6dp"
+                                android:onClick="checkQuestionTwoAnswered"
                                 android:text="Zambia" />
 
                             <RadioButton
@@ -312,6 +316,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="6dp"
                                 android:layout_marginBottom="6dp"
+                                android:onClick="checkQuestionTwoAnswered"
                                 android:text="Namibia" />
 
                             <RadioButton
@@ -319,6 +324,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="6dp"
                                 android:layout_marginBottom="6dp"
+                                android:onClick="checkQuestionTwoAnswered"
                                 android:text="Canada" />
                         </RadioGroup>
 

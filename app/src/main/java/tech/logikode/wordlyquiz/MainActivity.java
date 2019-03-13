@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.CheckBox;
+import android.widget.RadioGroup;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -27,6 +28,17 @@ public class MainActivity extends AppCompatActivity {
             qOneIndicator.setBackgroundResource(R.drawable.answered_indicator);
         } else {
             qOneIndicator.setBackgroundResource(R.drawable.not_answered_indicator);
+        }
+    }
+
+    public void checkQuestionTwoAnswered(View v) {
+        RadioGroup radioGroup = findViewById(R.id.qTwoRadioGroup);
+        View answerIndicator = findViewById(R.id.qTwoAnsweredIndicator);
+
+        if (radioGroup.getCheckedRadioButtonId() == -1) {
+            answerIndicator.setBackgroundResource(R.drawable.not_answered_indicator);
+        } else {
+            answerIndicator.setBackgroundResource(R.drawable.answered_indicator);
         }
     }
 }
