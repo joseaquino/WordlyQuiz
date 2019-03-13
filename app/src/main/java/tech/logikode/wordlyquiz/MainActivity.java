@@ -227,10 +227,14 @@ public class MainActivity extends AppCompatActivity {
         correctAnswers = 0;
 
         // Question one answer checking logic
-        CheckBox qOneCorrectOptOne = findViewById(R.id.qOneOptThree);
-        CheckBox qOneCorrectOptTwo = findViewById(R.id.qOneOptSix);
+        CheckBox qOneOptOne = findViewById(R.id.qOneOptOne);
+        CheckBox qOneOptTwo = findViewById(R.id.qOneOptTwo);
+        CheckBox qOneOptThree = findViewById(R.id.qOneOptThree);
+        CheckBox qOneOptFour = findViewById(R.id.qOneOptFour);
+        CheckBox qOneOptFive = findViewById(R.id.qOneOptFive);
+        CheckBox qOneOptSix= findViewById(R.id.qOneOptSix);
 
-        if (qOneCorrectOptOne.isChecked() && qOneCorrectOptTwo.isChecked()) {
+        if (!qOneOptOne.isChecked() && !qOneOptTwo.isChecked() && qOneOptThree.isChecked() && !qOneOptFour.isChecked() && !qOneOptFive.isChecked() && qOneOptSix.isChecked()) {
             correctAnswers += 1;
         }
 
@@ -273,10 +277,12 @@ public class MainActivity extends AppCompatActivity {
         }
 
         // Question six answer checking logic
-        CheckBox qSixCorrectOptOne = findViewById(R.id.qSixOptTwo);
-        CheckBox qSixCorrectOptTwo = findViewById(R.id.qSixOptThree);
+        CheckBox qSixOptOne = findViewById(R.id.qSixOptOne);
+        CheckBox qSixOptTwo = findViewById(R.id.qSixOptTwo);
+        CheckBox qSixOptThree = findViewById(R.id.qSixOptThree);
+        CheckBox qSixOptFour = findViewById(R.id.qSixOptFour);
 
-        if (qSixCorrectOptOne.isChecked() && qSixCorrectOptTwo.isChecked()) {
+        if (!qSixOptOne.isChecked() && qSixOptTwo.isChecked() && qSixOptThree.isChecked() && !qSixOptFour.isChecked()) {
             correctAnswers += 1;
         }
 
