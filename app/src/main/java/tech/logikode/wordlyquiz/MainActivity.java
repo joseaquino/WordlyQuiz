@@ -19,6 +19,13 @@ public class MainActivity extends AppCompatActivity {
         listenQuestionFourAnswered();
     }
 
+    /**
+     * Checks question one options to see if out of all the options at least one has been selected
+     * and set the answered indicator at the top accordingly to provide feedback to user that an
+     * option has been selected.
+     *
+     * @param v
+     */
     public void checkQuestionOneAnswered(View v) {
         View qOneIndicator = findViewById(R.id.qOneAnsweredIndicator);
 
@@ -36,6 +43,13 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    /**
+     * Checks question two RadioGroup if an option has been selected and set accordingly
+     * the answered indicator at the top to provide feedback to user that the questions has received
+     * an answer.
+     *
+     * @param v
+     */
     public void checkQuestionTwoAnswered(View v) {
         RadioGroup radioGroup = findViewById(R.id.qTwoRadioGroup);
         View answerIndicator = findViewById(R.id.qTwoAnsweredIndicator);
