@@ -15,6 +15,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     private int correctAnswers;
+    private Toast toastMessage;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -311,7 +312,13 @@ public class MainActivity extends AppCompatActivity {
      */
     private void showScore() {
         int totalQuestions = 8;
+
+        if (toastMessage != null) {
+            toastMessage.cancel();
+        }
+
         String message = "Your score is " + correctAnswers + "/" + totalQuestions;
-        Toast.makeText(this, message, Toast.LENGTH_LONG).show();
+        toastMessage = Toast.makeText(this, message, Toast.LENGTH_LONG);
+        toastMessage.show();
     }
 }
