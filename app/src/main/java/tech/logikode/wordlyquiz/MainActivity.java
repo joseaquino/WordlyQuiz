@@ -94,10 +94,28 @@ public class MainActivity extends AppCompatActivity {
         CheckBox optFour = findViewById(R.id.qSixeOptFour);
         View answerIndicator = findViewById(R.id.qFiveAnsweredIndicator);
 
-        if(optOne.isChecked() || optTwo.isChecked() || optThree.isChecked() || optFour.isChecked()) {
+        if (optOne.isChecked() || optTwo.isChecked() || optThree.isChecked() || optFour.isChecked()) {
             answerIndicator.setBackgroundResource(R.drawable.answered_indicator);
         } else {
             answerIndicator.setBackgroundResource(R.drawable.not_answered_indicator);
+        }
+    }
+
+    /**
+     * Checks question seven RadioGroup to see if an option has been selected and set the
+     * answered indicator at the top accordingly, providing feedback to user if the question has
+     * already been provided an answer.
+     * 
+     * @param v
+     */
+    public void checkQuestionSevenAnswered(View v) {
+        RadioGroup radioGroup = findViewById(R.id.qSevenRadioGroup);
+        View answerIndicator = findViewById(R.id.qSevenAnsweredIndicator);
+
+        if (radioGroup.getCheckedRadioButtonId() == -1) {
+            answerIndicator.setBackgroundResource(R.drawable.not_answered_indicator);
+        } else {
+            answerIndicator.setBackgroundResource(R.drawable.answered_indicator);
         }
     }
 
@@ -150,7 +168,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void afterTextChanged(Editable s) {
-                if(s.length() > 0) {
+                if (s.length() > 0) {
                     answerIndicator.setBackgroundResource(R.drawable.answered_indicator);
                 } else {
                     answerIndicator.setBackgroundResource(R.drawable.not_answered_indicator);
