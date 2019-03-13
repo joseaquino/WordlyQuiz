@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
         CheckBox optTwo = findViewById(R.id.qSixOptTwo);
         CheckBox optThree = findViewById(R.id.qSixOptThree);
         CheckBox optFour = findViewById(R.id.qSixOptFour);
-        View answerIndicator = findViewById(R.id.qFiveAnsweredIndicator);
+        View answerIndicator = findViewById(R.id.qSixAnsweredIndicator);
 
         if (optOne.isChecked() || optTwo.isChecked() || optThree.isChecked() || optFour.isChecked()) {
             answerIndicator.setBackgroundResource(R.drawable.answered_indicator);
