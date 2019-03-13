@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         listenQuestionThreeAnswered();
+        listenQuestionFiveAnswered();
     }
 
     /**
@@ -106,5 +107,35 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+    }
+
+    /**
+     * Listens to the question five EditText for changes and sets the answered indicator at the
+     * top accordingly depending if there is a value, this provides feedback to the user to
+     * know when this question has received a response.
+     */
+    private void listenQuestionFiveAnswered() {
+        EditText textField = findViewById(R.id.qFiveTextField);
+        final View answerIndicator = findViewById(R.id.qFiveAnsweredIndicator);
+
+        textField.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+                if(s.length() > 0) {
+                    answerIndicator.setBackgroundResource(R.drawable.answered_indicator);
+                } else {
+                    answerIndicator.setBackgroundResource(R.drawable.not_answered_indicator);
+                }
+            }
+        });
+
     }
 }
