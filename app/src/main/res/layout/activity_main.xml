@@ -98,6 +98,7 @@
 
         <!-- Question 8 answered indicator -->
         <View
+            android:id="@+id/qEightAnsweredIndicator"
             android:layout_width="0dp"
             android:layout_height="8dp"
             android:layout_marginLeft="6dp"
@@ -799,6 +800,7 @@
                             android:paddingBottom="6dp">
 
                             <EditText
+                                android:id="@+id/qEightTextField"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="6dp"
