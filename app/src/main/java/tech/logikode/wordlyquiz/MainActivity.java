@@ -31,8 +31,6 @@ public class MainActivity extends AppCompatActivity {
      * Checks question one options to see if out of all the options at least one has been selected
      * and set the answered indicator at the top accordingly to provide feedback to user that an
      * option has been selected.
-     *
-     * @param v
      */
     public void checkQuestionOneAnswered(View v) {
         View qOneIndicator = findViewById(R.id.qOneAnsweredIndicator);
@@ -55,8 +53,6 @@ public class MainActivity extends AppCompatActivity {
      * Checks question two RadioGroup if an option has been selected and set accordingly
      * the answered indicator at the top to provide feedback to user that the questions has received
      * an answer.
-     *
-     * @param v
      */
     public void checkQuestionTwoAnswered(View v) {
         RadioGroup radioGroup = findViewById(R.id.qTwoRadioGroup);
@@ -73,8 +69,6 @@ public class MainActivity extends AppCompatActivity {
      * Checks question four RadioGroup to see if an option has been selected and set the
      * answered indicator at the top accordingly, providing feedback to user if the question has
      * already been provided an answer.
-     *
-     * @param v
      */
     public void checkQuestionFourAnswered(View v) {
         RadioGroup radioGroup = findViewById(R.id.qFourRadioGroup);
@@ -91,8 +85,6 @@ public class MainActivity extends AppCompatActivity {
      * Checks question six to see if an option has been selected and set the
      * answered indicator at the top accodingly, providing feedback to the user if the question has
      * already been provided an answer.
-     * 
-     * @param v
      */
     public void checkQuestionSixAnswered(View v) {
         CheckBox optOne = findViewById(R.id.qSixOptOne);
@@ -112,8 +104,6 @@ public class MainActivity extends AppCompatActivity {
      * Checks question seven RadioGroup to see if an option has been selected and set the
      * answered indicator at the top accordingly, providing feedback to user if the question has
      * already been provided an answer.
-     * 
-     * @param v
      */
     public void checkQuestionSevenAnswered(View v) {
         RadioGroup radioGroup = findViewById(R.id.qSevenRadioGroup);
