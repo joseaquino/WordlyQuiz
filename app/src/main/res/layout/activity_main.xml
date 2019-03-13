@@ -35,6 +35,7 @@
             android:background="@drawable/not_answered_indicator" />
 
         <View
+            android:id="@+id/qThreeAnsweredIndicator"
             android:layout_width="0dp"
             android:layout_height="8dp"
             android:layout_marginLeft="6dp"
@@ -383,6 +384,7 @@
                             android:paddingBottom="6dp">
 
                             <EditText
+                                android:id="@+id/qThreeTextEdit"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="6dp"
