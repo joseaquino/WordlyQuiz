@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        listenQuestionFourAnswered();
+        listenQuestionThreeAnswered();
     }
 
     /**
@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
      * set the answered indicator at the top in green to provide feedback to the user that
      * the third question has received an answer
      */
-    private void listenQuestionFourAnswered() {
+    private void listenQuestionThreeAnswered() {
         EditText textField = findViewById(R.id.qThreeTextEdit);
         final View answerIndicator = findViewById(R.id.qThreeAnsweredIndicator);
 
