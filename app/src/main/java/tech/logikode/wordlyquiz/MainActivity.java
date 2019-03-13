@@ -5,11 +5,16 @@ import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.View;
+import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
+import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
+
+    private int correctAnswers;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         listenQuestionThreeAnswered();
         listenQuestionFiveAnswered();
         listenQuestionEightAnswered();
+        listenToCheckAnswer();
     }
 
     /**
@@ -207,5 +213,109 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+    /**
+     * Listener for the answer checker button
+     */
+    private void listenToCheckAnswer() {
+        Button checkAnswerBtn = findViewById(R.id.checkAnswerButton);
+
+        checkAnswerBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                checkAnswers();
+                showScore();
+            }
+        });
+    }
+
+    /**
+     * Checks all the selected answers and adds the points to the global score
+     */
+    private void checkAnswers() {
+        correctAnswers = 0;
+
+        // Question one answer checking logic
+        CheckBox qOneCorrectOptOne = findViewById(R.id.qOneOptThree);
+        CheckBox qOneCorrectOptTwo = findViewById(R.id.qOneOptSix);
+
+        if (qOneCorrectOptOne.isChecked() && qOneCorrectOptTwo.isChecked()) {
+            correctAnswers += 1;
+        }
+
+        // Question two answer checking logic
+        RadioGroup qTwoRadioGroup = findViewById(R.id.qTwoRadioGroup);
+
+        if (qTwoRadioGroup.getCheckedRadioButtonId() != -1) {
+            RadioButton qTwoSelectRadio = findViewById(qTwoRadioGroup.getCheckedRadioButtonId());
+
+            if (qTwoSelectRadio.getText().toString().matches("Zambia")) {
+                correctAnswers += 1;
+            }
+        }
+
+        // Questions three answer checking logic
+        EditText qThreeTextField = findViewById(R.id.qThreeTextEdit);
+        String qThreeAnswer = qThreeTextField.getText().toString().trim();
+
+        if (qThreeAnswer.matches("1928")) {
+            correctAnswers += 1;
+        }
+
+        // Question four answer checking logic
+        RadioGroup qFourRadioGroup = findViewById(R.id.qFourRadioGroup);
+
+        if (qFourRadioGroup.getCheckedRadioButtonId() != -1) {
+            RadioButton qFourSelectedRadio = findViewById(qFourRadioGroup.getCheckedRadioButtonId());
+
+            if (qFourSelectedRadio.getText().toString().matches("Russia")) {
+                correctAnswers += 1;
+            }
+        }
+
+        // Question five answer checking logic
+        EditText qFiveTextField = findViewById(R.id.qFiveTextField);
+        String qFiveAnswer = qFiveTextField.getText().toString().trim().toLowerCase();
+
+        if (qFiveAnswer.matches("the great pacific garbage patch")) {
+            correctAnswers += 1;
+        }
+
+        // Question six answer checking logic
+        CheckBox qSixCorrectOptOne = findViewById(R.id.qSixOptTwo);
+        CheckBox qSixCorrectOptTwo = findViewById(R.id.qSixOptThree);
+
+        if (qSixCorrectOptOne.isChecked() && qSixCorrectOptTwo.isChecked()) {
+            correctAnswers += 1;
+        }
+
+        // Question seven answer checking logic
+        RadioGroup qSevenRadioGroup = findViewById(R.id.qSevenRadioGroup);
+
+        if (qSevenRadioGroup.getCheckedRadioButtonId() != -1) {
+            RadioButton qSevenSelectedRadio = findViewById(qSevenRadioGroup.getCheckedRadioButtonId());
+
+            if (qSevenSelectedRadio.getText().toString().matches("400 KM")) {
+                correctAnswers += 1;
+            }
+        }
+
+        // Question eight answer checking logic
+        EditText qEightTextField = findViewById(R.id.qEightTextField);
+        String qEightAnswer = qEightTextField.getText().toString().trim().toLowerCase();
+
+        if (qEightAnswer.matches("joe kittinger")) {
+            correctAnswers += 1;
+        }
+    }
+
+    /**
+     * Displayes a Toast with the score message
+     */
+    private void showScore() {
+        int totalQuestions = 8;
+        String message = "Your score is " + correctAnswers + "/" + totalQuestions;
+        Toast.makeText(this, message, Toast.LENGTH_LONG).show();
     }
 }
