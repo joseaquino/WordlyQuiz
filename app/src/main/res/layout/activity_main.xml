@@ -15,98 +15,42 @@
         <!-- Question 1 answered indicator -->
         <View
             android:id="@+id/qOneAnsweredIndicator"
-            android:layout_width="0dp"
-            android:layout_height="8dp"
-            android:layout_marginLeft="6dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginRight="6dp"
-            android:layout_marginBottom="8dp"
-            android:layout_weight="1"
-            android:background="@drawable/not_answered_indicator" />
+            style="@style/qAnsweredIndicatorStyle" />
 
         <!-- Question 2 answered indicator -->
         <View
             android:id="@+id/qTwoAnsweredIndicator"
-            android:layout_width="0dp"
-            android:layout_height="8dp"
-            android:layout_marginLeft="6dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginRight="6dp"
-            android:layout_marginBottom="8dp"
-            android:layout_weight="1"
-            android:background="@drawable/not_answered_indicator" />
+            style="@style/qAnsweredIndicatorStyle" />
 
         <!-- Question 3 answered indicator -->
         <View
             android:id="@+id/qThreeAnsweredIndicator"
-            android:layout_width="0dp"
-            android:layout_height="8dp"
-            android:layout_marginLeft="6dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginRight="6dp"
-            android:layout_marginBottom="8dp"
-            android:layout_weight="1"
-            android:background="@drawable/not_answered_indicator" />
+            style="@style/qAnsweredIndicatorStyle" />
 
         <!-- Question 4 answered indicator -->
         <View
             android:id="@+id/qFourAnsweredIndicator"
-            android:layout_width="0dp"
-            android:layout_height="8dp"
-            android:layout_marginLeft="6dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginRight="6dp"
-            android:layout_marginBottom="8dp"
-            android:layout_weight="1"
-            android:background="@drawable/not_answered_indicator" />
+            style="@style/qAnsweredIndicatorStyle" />
 
         <!-- Question 5 answered indicator -->
         <View
             android:id="@+id/qFiveAnsweredIndicator"
-            android:layout_width="0dp"
-            android:layout_height="8dp"
-            android:layout_marginLeft="6dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginRight="6dp"
-            android:layout_marginBottom="8dp"
-            android:layout_weight="1"
-            android:background="@drawable/not_answered_indicator" />
+            style="@style/qAnsweredIndicatorStyle" />
 
         <!-- Question 6 answered indicator -->
         <View
             android:id="@+id/qSixAnsweredIndicator"
-            android:layout_width="0dp"
-            android:layout_height="8dp"
-            android:layout_marginLeft="6dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginRight="6dp"
-            android:layout_marginBottom="8dp"
-            android:layout_weight="1"
-            android:background="@drawable/not_answered_indicator" />
+            style="@style/qAnsweredIndicatorStyle" />
 
         <!-- Question 7 answered indicator -->
         <View
             android:id="@+id/qSevenAnsweredIndicator"
-            android:layout_width="0dp"
-            android:layout_height="8dp"
-            android:layout_marginLeft="6dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginRight="6dp"
-            android:layout_marginBottom="8dp"
-            android:layout_weight="1"
-            android:background="@drawable/not_answered_indicator" />
+            style="@style/qAnsweredIndicatorStyle" />
 
         <!-- Question 8 answered indicator -->
         <View
             android:id="@+id/qEightAnsweredIndicator"
-            android:layout_width="0dp"
-            android:layout_height="8dp"
-            android:layout_marginLeft="6dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginRight="6dp"
-            android:layout_marginBottom="8dp"
-            android:layout_weight="1"
-            android:background="@drawable/not_answered_indicator" />
+            style="@style/qAnsweredIndicatorStyle" />
     </LinearLayout>
 
     <RelativeLayout
