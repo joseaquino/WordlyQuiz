@@ -9,8 +9,10 @@
         android:layout_height="wrap_content"
         android:background="@color/lightBlueGrey"
         android:orientation="horizontal"
-        android:paddingLeft="6dp"
-        android:paddingRight="6dp">
+        android:paddingStart="@dimen/answeredIndicatorsPadLeft"
+        android:paddingLeft="@dimen/answeredIndicatorsPadLeft"
+        android:paddingEnd="@dimen/answeredIndicatorsPadRight"
+        android:paddingRight="@dimen/answeredIndicatorsPadRight">
 
         <!-- Question 1 answered indicator -->
         <View
@@ -59,14 +61,14 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="136dp"
+            android:layout_height="@dimen/quizBannerHeight"
             android:background="@color/darkPurple"
             android:gravity="center_vertical"
             android:orientation="vertical">
 
             <View
-                android:layout_width="96dp"
-                android:layout_height="96dp"
+                android:layout_width="@dimen/earthIconSize"
+                android:layout_height="@dimen/earthIconSize"
                 android:layout_gravity="center"
                 android:background="@drawable/globe_icon" />
         </LinearLayout>
@@ -82,8 +84,8 @@
 
                 <View
                     android:layout_width="match_parent"
-                    android:layout_height="60dp"
-                    android:layout_marginTop="76dp"
+                    android:layout_height="@dimen/quizBannerCurveHeight"
+                    android:layout_marginTop="@dimen/quizBannerCurveMarginTop"
                     android:background="@drawable/header_bg_mask" />
 
                 <!-- Question 1 -->
@@ -464,10 +466,12 @@
                     android:layout_height="wrap_content"
                     android:background="@color/lightGrey"
                     android:orientation="vertical"
-                    android:paddingLeft="16dp"
-                    android:paddingTop="16dp"
-                    android:paddingRight="16dp"
-                    android:paddingBottom="32dp">
+                    android:paddingStart="@dimen/checkAnswersBtnContainerPadLeft"
+                    android:paddingLeft="@dimen/checkAnswersBtnContainerPadLeft"
+                    android:paddingTop="@dimen/checkAnswersBtnContainerPadTop"
+                    android:paddingEnd="@dimen/checkAnswersBtnContainerPadRight"
+                    android:paddingRight="@dimen/checkAnswersBtnContainerPadRight"
+                    android:paddingBottom="@dimen/checkAnswersBtnContainerPadBottom">
 
                     <Button
                         android:id="@+id/checkAnswerButton"

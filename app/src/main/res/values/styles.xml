@@ -12,9 +12,9 @@
     <style name="qAnsweredIndicatorStyle">
         <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">@dimen/answeredIndicatorHeight</item>
-        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_marginLeft">@dimen/answeredIndicatorMarginLeft</item>
         <item name="android:layout_marginTop">@dimen/answeredIndicatorHeight</item>
-        <item name="android:layout_marginRight">6dp</item>
+        <item name="android:layout_marginRight">@dimen/answeredIndicatorMarginRight</item>
         <item name="android:layout_marginBottom">@dimen/answeredIndicatorHeight</item>
         <item name="android:layout_weight">1</item>
         <item name="android:background">@drawable/not_answered_indicator</item>
@@ -24,51 +24,51 @@
     <style name="questionSectionStyle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginBottom">6dp</item>
+        <item name="android:layout_marginBottom">@dimen/questionSectionMarginBottom</item>
         <item name="android:background">@drawable/question_txt_bg</item>
-        <item name="android:paddingStart">24dp</item>
-        <item name="android:paddingLeft">24dp</item>
-        <item name="android:paddingTop">12dp</item>
-        <item name="android:paddingEnd">16dp</item>
-        <item name="android:paddingRight">16dp</item>
-        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingStart">@dimen/questionSectionPadLeft</item>
+        <item name="android:paddingLeft">@dimen/questionSectionPadLeft</item>
+        <item name="android:paddingTop">@dimen/questionSectionPadVertSides</item>
+        <item name="android:paddingEnd">@dimen/questionSectionPadRight</item>
+        <item name="android:paddingRight">@dimen/questionSectionPadRight</item>
+        <item name="android:paddingBottom">@dimen/questionSectionPadVertSides</item>
         <item name="android:textColor">@color/darkPurple</item>
-        <item name="android:textSize">16sp</item>
+        <item name="android:textSize">@dimen/questionSectionTextSize</item>
     </style>
 
     <!-- Quiz question number -->
     <style name="quizQuestionNumberStyle">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginTop">32dp</item>
+        <item name="android:layout_marginTop">@dimen/qNumIndicatorMarginTop</item>
         <item name="android:background">@color/highlightYellow</item>
-        <item name="android:paddingStart">6dp</item>
-        <item name="android:paddingLeft">6dp</item>
-        <item name="android:paddingTop">3dp</item>
-        <item name="android:paddingEnd">3dp</item>
-        <item name="android:paddingRight">3dp</item>
-        <item name="android:paddingBottom">3dp</item>
-        <item name="android:textSize">16sp</item>
+        <item name="android:paddingStart">@dimen/qNumIndicatorPadLeft</item>
+        <item name="android:paddingLeft">@dimen/qNumIndicatorPadLeft</item>
+        <item name="android:paddingTop">@dimen/qNumIndicatorVertSidesPad</item>
+        <item name="android:paddingEnd">@dimen/qNumIndicatorPadRight</item>
+        <item name="android:paddingRight">@dimen/qNumIndicatorPadRight</item>
+        <item name="android:paddingBottom">@dimen/qNumIndicatorVertSidesPad</item>
+        <item name="android:textSize">@dimen/qNumIndicatorTextSize</item>
     </style>
 
     <!-- Quiz question card style -->
     <style name="questionCardStyle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_margin">16dp</item>
+        <item name="android:layout_margin">@dimen/qCardMargin</item>
         <item name="android:background">@drawable/question_card</item>
         <item name="android:orientation">vertical</item>
-        <item name="android:paddingBottom">6dp</item>
+        <item name="android:paddingBottom">@dimen/qCardPadBottom</item>
     </style>
 
     <!-- Quiz question options container style -->
     <style name="questionOptionsContainerStyle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:paddingLeft">18dp</item>
-        <item name="android:paddingTop">6dp</item>
-        <item name="android:paddingRight">18dp</item>
-        <item name="android:paddingBottom">6dp</item>
+        <item name="android:paddingLeft">@dimen/qOptionsHorSidesPad</item>
+        <item name="android:paddingTop">@dimen/qOptionsVertSidesPad</item>
+        <item name="android:paddingRight">@dimen/qOptionsHorSidesPad</item>
+        <item name="android:paddingBottom">@dimen/qOptionsVertSidesPad</item>
     </style>
 
     <!-- Quiz checkbox style -->
@@ -76,23 +76,23 @@
         <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_weight">1</item>
-        <item name="android:textSize">16sp</item>
+        <item name="android:textSize">@dimen/checkBoxTextSize</item>
     </style>
 
     <!-- Quiz RadioButton style -->
     <style name="radioButtonsStyle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginTop">6dp</item>
-        <item name="android:layout_marginBottom">6dp</item>
+        <item name="android:layout_marginTop">@dimen/radioBtnVertMargin</item>
+        <item name="android:layout_marginBottom">@dimen/radioBtnVertMargin</item>
     </style>
 
-    <!-- Quix EditText style -->
+    <!-- Quiz EditText style -->
     <style name="textFieldsStyle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginTop">6dp</item>
-        <item name="android:layout_marginBottom">6dp</item>
+        <item name="android:layout_marginTop">@dimen/textEditVertMargin</item>
+        <item name="android:layout_marginBottom">@dimen/textEditVertMargin</item>
     </style>
 
 </resources>

@@ -1,4 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="answeredIndicatorHeight">8dp</dimen>
+    <dimen name="answeredIndicatorMarginLeft">6dp</dimen>
+    <dimen name="answeredIndicatorMarginRight">6dp</dimen>
+    <dimen name="answeredIndicatorsPadLeft">6dp</dimen>
+    <dimen name="answeredIndicatorsPadRight">6dp</dimen>
+
+    <dimen name="quizBannerHeight">136dp</dimen>
+    <dimen name="earthIconSize">96dp</dimen>
+    <dimen name="quizBannerCurveHeight">60dp</dimen>
+    <dimen name="quizBannerCurveMarginTop">76dp</dimen>
+
+    <dimen name="questionSectionPadLeft">24dp</dimen>
+    <dimen name="questionSectionPadRight">16dp</dimen>
+    <dimen name="questionSectionPadVertSides">12dp</dimen>
+    <dimen name="questionSectionTextSize">16sp</dimen>
+    <dimen name="questionSectionMarginBottom">6dp</dimen>
+
+    <dimen name="qNumIndicatorMarginTop">32dp</dimen>
+    <dimen name="qNumIndicatorPadLeft">6dp</dimen>
+    <dimen name="qNumIndicatorPadRight">3dp</dimen>
+    <dimen name="qNumIndicatorVertSidesPad">3dp</dimen>
+    <dimen name="qNumIndicatorTextSize">16sp</dimen>
+
+    <dimen name="qCardMargin">16dp</dimen>
+    <dimen name="qCardPadBottom">6dp</dimen>
+
+    <dimen name="qOptionsHorSidesPad">18dp</dimen>
+    <dimen name="qOptionsVertSidesPad">6dp</dimen>
+
+    <dimen name="checkBoxTextSize">16sp</dimen>
+    <dimen name="radioBtnVertMargin">6dp</dimen>
+    <dimen name="textEditVertMargin">6dp</dimen>
+
+    <dimen name="checkAnswersBtnContainerPadLeft">16dp</dimen>
+    <dimen name="checkAnswersBtnContainerPadRight">16dp</dimen>
+    <dimen name="checkAnswersBtnContainerPadTop">16dp</dimen>
+    <dimen name="checkAnswersBtnContainerPadBottom">32dp</dimen>
 </resources>
