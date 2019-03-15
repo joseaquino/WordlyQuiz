@@ -93,13 +93,7 @@
                     android:background="#EEEEEE">
 
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="16dp"
-                        android:background="@drawable/question_card"
-                        android:orientation="vertical"
-                        android:paddingBottom="6dp">
+                    <LinearLayout style="@style/questionCardStyle">
 
                         <TextView
                             style="@style/questionSectionStyle"
@@ -194,7 +188,7 @@
 
                     <TextView
                         style="@style/quizQuestionNumberStyle"
-                        android:text="@string/question_one_number"/>
+                        android:text="@string/question_one_number" />
 
                 </RelativeLayout>
 
@@ -205,13 +199,7 @@
                     android:background="#EEEEEE">
 
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="16dp"
-                        android:background="@drawable/question_card"
-                        android:orientation="vertical"
-                        android:paddingBottom="6dp">
+                    <LinearLayout style="@style/questionCardStyle">
 
                         <TextView
                             style="@style/questionSectionStyle"
@@ -265,7 +253,7 @@
 
                     <TextView
                         style="@style/quizQuestionNumberStyle"
-                        android:text="@string/question_two_number"/>
+                        android:text="@string/question_two_number" />
 
                 </RelativeLayout>
 
@@ -276,17 +264,11 @@
                     android:background="#EEEEEE">
 
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="16dp"
-                        android:background="@drawable/question_card"
-                        android:orientation="vertical"
-                        android:paddingBottom="6dp">
+                    <LinearLayout style="@style/questionCardStyle">
 
                         <TextView
                             style="@style/questionSectionStyle"
-                            android:text="@string/question_three"/>
+                            android:text="@string/question_three" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -312,7 +294,7 @@
 
                     <TextView
                         style="@style/quizQuestionNumberStyle"
-                        android:text="@string/question_three_number"/>
+                        android:text="@string/question_three_number" />
 
                 </RelativeLayout>
 
@@ -333,7 +315,7 @@
 
                         <TextView
                             style="@style/questionSectionStyle"
-                            android:text="@string/question_four"/>
+                            android:text="@string/question_four" />
 
                         <RadioGroup
                             android:id="@+id/qFourRadioGroup"
@@ -383,7 +365,7 @@
 
                     <TextView
                         style="@style/quizQuestionNumberStyle"
-                        android:text="@string/question_four_number"/>
+                        android:text="@string/question_four_number" />
 
                 </RelativeLayout>
 
@@ -394,17 +376,11 @@
                     android:background="#EEEEEE">
 
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="16dp"
-                        android:background="@drawable/question_card"
-                        android:orientation="vertical"
-                        android:paddingBottom="6dp">
+                    <LinearLayout style="@style/questionCardStyle">
 
                         <TextView
                             style="@style/questionSectionStyle"
-                            android:text="@string/question_five"/>
+                            android:text="@string/question_five" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -430,7 +406,7 @@
 
                     <TextView
                         style="@style/quizQuestionNumberStyle"
-                        android:text="@string/question_five_number"/>
+                        android:text="@string/question_five_number" />
 
                 </RelativeLayout>
 
@@ -441,17 +417,11 @@
                     android:background="#EEEEEE">
 
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="16dp"
-                        android:background="@drawable/question_card"
-                        android:orientation="vertical"
-                        android:paddingBottom="6dp">
+                    <LinearLayout style="@style/questionCardStyle">
 
                         <TextView
                             style="@style/questionSectionStyle"
-                            android:text="@string/question_six"/>
+                            android:text="@string/question_six" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -514,7 +484,7 @@
 
                     <TextView
                         style="@style/quizQuestionNumberStyle"
-                        android:text="@string/question_six_number"/>
+                        android:text="@string/question_six_number" />
 
                 </RelativeLayout>
 
@@ -525,17 +495,11 @@
                     android:background="#EEEEEE">
 
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="16dp"
-                        android:background="@drawable/question_card"
-                        android:orientation="vertical"
-                        android:paddingBottom="6dp">
+                    <LinearLayout style="@style/questionCardStyle">
 
                         <TextView
                             style="@style/questionSectionStyle"
-                            android:text="@string/question_seven"/>
+                            android:text="@string/question_seven" />
 
                         <RadioGroup
                             android:id="@+id/qSevenRadioGroup"
@@ -585,7 +549,7 @@
 
                     <TextView
                         style="@style/quizQuestionNumberStyle"
-                        android:text="@string/question_seven_number"/>
+                        android:text="@string/question_seven_number" />
 
                 </RelativeLayout>
 
@@ -596,17 +560,11 @@
                     android:background="#EEEEEE">
 
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="16dp"
-                        android:background="@drawable/question_card"
-                        android:orientation="vertical"
-                        android:paddingBottom="6dp">
+                    <LinearLayout style="@style/questionCardStyle">
 
                         <TextView
                             style="@style/questionSectionStyle"
-                            android:text="@string/question_eight"/>
+                            android:text="@string/question_eight" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -632,7 +590,7 @@
 
                     <TextView
                         style="@style/quizQuestionNumberStyle"
-                        android:text="@string/question_eight_number"/>
+                        android:text="@string/question_eight_number" />
 
                 </RelativeLayout>
 

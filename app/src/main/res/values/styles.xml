@@ -51,4 +51,14 @@
         <item name="android:textSize">16sp</item>
     </style>
 
+    <!-- Quiz question card style -->
+    <style name="questionCardStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:background">@drawable/question_card</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingBottom">6dp</item>
+    </style>
+
 </resources>
