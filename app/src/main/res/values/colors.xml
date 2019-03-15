@@ -3,8 +3,14 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+
     <color name="darkPurple">#382D47</color>
     <color name="highlightYellow">#E9CF4A</color>
     <color name="lightBlueGrey">#D2D8DC</color>
     <color name="lightGrey">#EEEEEE</color>
+    <color name="colorSuccess">#3EC78D</color>
+    <color name="colorDisabled">#A4B1C6</color>
+    <color name="white">#E0E4E6</color>
+    <color name="darkGreen">#1E673B</color>
+    <color name="saturatedBlue">#1199CA</color>
 </resources>
