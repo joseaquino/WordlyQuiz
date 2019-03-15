@@ -105,21 +105,15 @@
 
                             <CheckBox
                                 android:id="@+id/qOneOptOne"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
+                                style="@style/checkboxStyle"
                                 android:onClick="checkQuestionOneAnswered"
-                                android:text="@string/question_one_option_one"
-                                android:textSize="16sp" />
+                                android:text="@string/question_one_option_one" />
 
                             <CheckBox
                                 android:id="@+id/qOneOptTwo"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
+                                style="@style/checkboxStyle"
                                 android:onClick="checkQuestionOneAnswered"
-                                android:text="@string/question_one_option_two"
-                                android:textSize="16sp" />
+                                android:text="@string/question_one_option_two" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -128,21 +122,15 @@
 
                             <CheckBox
                                 android:id="@+id/qOneOptThree"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
+                                style="@style/checkboxStyle"
                                 android:onClick="checkQuestionOneAnswered"
-                                android:text="@string/question_one_option_three"
-                                android:textSize="16sp" />
+                                android:text="@string/question_one_option_three" />
 
                             <CheckBox
                                 android:id="@+id/qOneOptFour"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
+                                style="@style/checkboxStyle"
                                 android:onClick="checkQuestionOneAnswered"
-                                android:text="@string/question_one_option_four"
-                                android:textSize="16sp" />
+                                android:text="@string/question_one_option_four" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -151,21 +139,15 @@
 
                             <CheckBox
                                 android:id="@+id/qOneOptFive"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
+                                style="@style/checkboxStyle"
                                 android:onClick="checkQuestionOneAnswered"
-                                android:text="@string/question_one_option_five"
-                                android:textSize="16sp" />
+                                android:text="@string/question_one_option_five" />
 
                             <CheckBox
                                 android:id="@+id/qOneOptSix"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
+                                style="@style/checkboxStyle"
                                 android:onClick="checkQuestionOneAnswered"
-                                android:text="@string/question_one_option_six"
-                                android:textSize="16sp" />
+                                android:text="@string/question_one_option_six" />
                         </LinearLayout>
 
 
@@ -388,21 +370,15 @@
 
                             <CheckBox
                                 android:id="@+id/qSixOptOne"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
+                                style="@style/checkboxStyle"
                                 android:onClick="checkQuestionSixAnswered"
-                                android:text="@string/question_six_option_one"
-                                android:textSize="16sp" />
+                                android:text="@string/question_six_option_one" />
 
                             <CheckBox
                                 android:id="@+id/qSixOptTwo"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
+                                style="@style/checkboxStyle"
                                 android:onClick="checkQuestionSixAnswered"
-                                android:text="@string/question_six_option_two"
-                                android:textSize="16sp" />
+                                android:text="@string/question_six_option_two" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -411,21 +387,15 @@
 
                             <CheckBox
                                 android:id="@+id/qSixOptThree"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
+                                style="@style/checkboxStyle"
                                 android:onClick="checkQuestionSixAnswered"
-                                android:text="@string/question_six_option_three"
-                                android:textSize="16sp" />
+                                android:text="@string/question_six_option_three" />
 
                             <CheckBox
                                 android:id="@+id/qSixOptFour"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
+                                style="@style/checkboxStyle"
                                 android:onClick="checkQuestionSixAnswered"
-                                android:text="@string/question_six_option_four"
-                                android:textSize="16sp" />
+                                android:text="@string/question_six_option_four" />
                         </LinearLayout>
 
 
