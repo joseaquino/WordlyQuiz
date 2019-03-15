@@ -20,4 +20,20 @@
         <item name="android:background">@drawable/not_answered_indicator</item>
     </style>
 
+    <!-- Quiz question section style -->
+    <style name="questionSectionStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">6dp</item>
+        <item name="android:background">@drawable/question_txt_bg</item>
+        <item name="android:paddingStart">24dp</item>
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textColor">@color/darkPurple</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
 </resources>

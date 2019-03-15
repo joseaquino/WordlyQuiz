@@ -102,19 +102,8 @@
                         android:paddingBottom="6dp">
 
                         <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="6dp"
-                            android:background="@drawable/question_txt_bg"
-                            android:paddingStart="24dp"
-                            android:paddingLeft="24dp"
-                            android:paddingTop="12dp"
-                            android:paddingEnd="16dp"
-                            android:paddingRight="16dp"
-                            android:paddingBottom="12dp"
-                            android:text="@string/question_one"
-                            android:textColor="#382D47"
-                            android:textSize="16sp" />
+                            style="@style/questionSectionStyle"
+                            android:text="@string/question_one" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -235,19 +224,8 @@
                         android:paddingBottom="6dp">
 
                         <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="6dp"
-                            android:background="@drawable/question_txt_bg"
-                            android:paddingStart="24dp"
-                            android:paddingLeft="24dp"
-                            android:paddingTop="12dp"
-                            android:paddingEnd="16dp"
-                            android:paddingRight="16dp"
-                            android:paddingBottom="12dp"
-                            android:text="@string/question_two"
-                            android:textColor="#382D47"
-                            android:textSize="16sp" />
+                            style="@style/questionSectionStyle"
+                            android:text="@string/question_two" />
 
                         <RadioGroup
                             android:id="@+id/qTwoRadioGroup"
@@ -327,19 +305,8 @@
                         android:paddingBottom="6dp">
 
                         <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="6dp"
-                            android:background="@drawable/question_txt_bg"
-                            android:paddingStart="24dp"
-                            android:paddingLeft="24dp"
-                            android:paddingTop="12dp"
-                            android:paddingEnd="16dp"
-                            android:paddingRight="16dp"
-                            android:paddingBottom="12dp"
-                            android:text="@string/question_three"
-                            android:textColor="#382D47"
-                            android:textSize="16sp" />
+                            style="@style/questionSectionStyle"
+                            android:text="@string/question_three"/>
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -395,19 +362,8 @@
                         android:paddingBottom="6dp">
 
                         <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="6dp"
-                            android:background="@drawable/question_txt_bg"
-                            android:paddingStart="24dp"
-                            android:paddingLeft="24dp"
-                            android:paddingTop="12dp"
-                            android:paddingEnd="16dp"
-                            android:paddingRight="16dp"
-                            android:paddingBottom="12dp"
-                            android:text="@string/question_four"
-                            android:textColor="#382D47"
-                            android:textSize="16sp" />
+                            style="@style/questionSectionStyle"
+                            android:text="@string/question_four"/>
 
                         <RadioGroup
                             android:id="@+id/qFourRadioGroup"
@@ -487,19 +443,8 @@
                         android:paddingBottom="6dp">
 
                         <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="6dp"
-                            android:background="@drawable/question_txt_bg"
-                            android:paddingStart="24dp"
-                            android:paddingLeft="24dp"
-                            android:paddingTop="12dp"
-                            android:paddingEnd="16dp"
-                            android:paddingRight="16dp"
-                            android:paddingBottom="12dp"
-                            android:text="@string/question_five"
-                            android:textColor="#382D47"
-                            android:textSize="16sp" />
+                            style="@style/questionSectionStyle"
+                            android:text="@string/question_five"/>
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -555,19 +500,8 @@
                         android:paddingBottom="6dp">
 
                         <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="6dp"
-                            android:background="@drawable/question_txt_bg"
-                            android:paddingStart="24dp"
-                            android:paddingLeft="24dp"
-                            android:paddingTop="12dp"
-                            android:paddingEnd="16dp"
-                            android:paddingRight="16dp"
-                            android:paddingBottom="12dp"
-                            android:text="@string/question_six"
-                            android:textColor="#382D47"
-                            android:textSize="16sp" />
+                            style="@style/questionSectionStyle"
+                            android:text="@string/question_six"/>
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -660,19 +594,8 @@
                         android:paddingBottom="6dp">
 
                         <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="6dp"
-                            android:background="@drawable/question_txt_bg"
-                            android:paddingStart="24dp"
-                            android:paddingLeft="24dp"
-                            android:paddingTop="12dp"
-                            android:paddingEnd="16dp"
-                            android:paddingRight="16dp"
-                            android:paddingBottom="12dp"
-                            android:text="@string/question_seven"
-                            android:textColor="#382D47"
-                            android:textSize="16sp" />
+                            style="@style/questionSectionStyle"
+                            android:text="@string/question_seven"/>
 
                         <RadioGroup
                             android:id="@+id/qSevenRadioGroup"
@@ -752,19 +675,8 @@
                         android:paddingBottom="6dp">
 
                         <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="6dp"
-                            android:background="@drawable/question_txt_bg"
-                            android:paddingStart="24dp"
-                            android:paddingLeft="24dp"
-                            android:paddingTop="12dp"
-                            android:paddingEnd="16dp"
-                            android:paddingRight="16dp"
-                            android:paddingBottom="12dp"
-                            android:text="@string/question_eight"
-                            android:textColor="#382D47"
-                            android:textSize="16sp" />
+                            style="@style/questionSectionStyle"
+                            android:text="@string/question_eight"/>
 
                         <LinearLayout
                             android:layout_width="match_parent"
