@@ -178,34 +178,22 @@
                             android:orientation="vertical">
 
                             <RadioButton
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="6dp"
-                                android:layout_marginBottom="6dp"
+                                style="@style/radioButtonsStyle"
                                 android:onClick="checkQuestionTwoAnswered"
                                 android:text="@string/question_two_option_one" />
 
                             <RadioButton
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="6dp"
-                                android:layout_marginBottom="6dp"
+                                style="@style/radioButtonsStyle"
                                 android:onClick="checkQuestionTwoAnswered"
                                 android:text="@string/question_two_option_two" />
 
                             <RadioButton
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="6dp"
-                                android:layout_marginBottom="6dp"
+                                style="@style/radioButtonsStyle"
                                 android:onClick="checkQuestionTwoAnswered"
                                 android:text="@string/question_two_option_three" />
 
                             <RadioButton
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="6dp"
-                                android:layout_marginBottom="6dp"
+                                style="@style/radioButtonsStyle"
                                 android:onClick="checkQuestionTwoAnswered"
                                 android:text="@string/question_two_option_four" />
                         </RadioGroup>
@@ -274,34 +262,22 @@
                             android:orientation="vertical">
 
                             <RadioButton
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="6dp"
-                                android:layout_marginBottom="6dp"
+                                style="@style/radioButtonsStyle"
                                 android:onClick="checkQuestionFourAnswered"
                                 android:text="@string/question_four_option_one" />
 
                             <RadioButton
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="6dp"
-                                android:layout_marginBottom="6dp"
+                                style="@style/radioButtonsStyle"
                                 android:onClick="checkQuestionFourAnswered"
                                 android:text="@string/question_four_option_two" />
 
                             <RadioButton
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="6dp"
-                                android:layout_marginBottom="6dp"
+                                style="@style/radioButtonsStyle"
                                 android:onClick="checkQuestionFourAnswered"
                                 android:text="@string/question_four_option_three" />
 
                             <RadioButton
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="6dp"
-                                android:layout_marginBottom="6dp"
+                                style="@style/radioButtonsStyle"
                                 android:onClick="checkQuestionFourAnswered"
                                 android:text="@string/question_four_option_four" />
                         </RadioGroup>
@@ -426,34 +402,22 @@
                             android:orientation="vertical">
 
                             <RadioButton
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="6dp"
-                                android:layout_marginBottom="6dp"
+                                style="@style/radioButtonsStyle"
                                 android:onClick="checkQuestionSevenAnswered"
                                 android:text="@string/question_seven_option_one" />
 
                             <RadioButton
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="6dp"
-                                android:layout_marginBottom="6dp"
+                                style="@style/radioButtonsStyle"
                                 android:onClick="checkQuestionSevenAnswered"
                                 android:text="@string/question_seven_option_two" />
 
                             <RadioButton
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="6dp"
-                                android:layout_marginBottom="6dp"
+                                style="@style/radioButtonsStyle"
                                 android:onClick="checkQuestionSevenAnswered"
                                 android:text="@string/question_seven_option_three" />
 
                             <RadioButton
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="6dp"
-                                android:layout_marginBottom="6dp"
+                                style="@style/radioButtonsStyle"
                                 android:onClick="checkQuestionSevenAnswered"
                                 android:text="@string/question_seven_option_four" />
                         </RadioGroup>
