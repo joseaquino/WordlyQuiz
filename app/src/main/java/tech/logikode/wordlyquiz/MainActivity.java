@@ -250,7 +250,7 @@ public class MainActivity extends AppCompatActivity {
         EditText qThreeTextField = findViewById(R.id.qThreeTextEdit);
         String qThreeAnswer = qThreeTextField.getText().toString().trim();
 
-        if (qThreeAnswer.matches("1928")) {
+        if (qThreeAnswer.equalsIgnoreCase("1928")) {
             correctAnswers += 1;
         }
 
@@ -263,9 +263,9 @@ public class MainActivity extends AppCompatActivity {
 
         // Question five answer checking logic
         EditText qFiveTextField = findViewById(R.id.qFiveTextField);
-        String qFiveAnswer = qFiveTextField.getText().toString().trim().toLowerCase();
+        String qFiveAnswer = qFiveTextField.getText().toString().trim();
 
-        if (qFiveAnswer.matches("the great pacific garbage patch")) {
+        if (qFiveAnswer.equalsIgnoreCase("The Great Pacific Garbage Patch")) {
             correctAnswers += 1;
         }
 
@@ -288,9 +288,9 @@ public class MainActivity extends AppCompatActivity {
 
         // Question eight answer checking logic
         EditText qEightTextField = findViewById(R.id.qEightTextField);
-        String qEightAnswer = qEightTextField.getText().toString().trim().toLowerCase();
+        String qEightAnswer = qEightTextField.getText().toString().trim();
 
-        if (qEightAnswer.matches("joe kittinger")) {
+        if (qEightAnswer.equalsIgnoreCase("Joe Kittinger")) {
             correctAnswers += 1;
         }
     }
