@@ -100,13 +100,8 @@
                             android:text="@string/question_one" />
 
                         <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="horizontal"
-                            android:paddingLeft="18dp"
-                            android:paddingTop="6dp"
-                            android:paddingRight="18dp"
-                            android:paddingBottom="6dp">
+                            style="@style/questionOptionsContainerStyle"
+                            android:orientation="horizontal">
 
                             <CheckBox
                                 android:id="@+id/qOneOptOne"
@@ -128,13 +123,8 @@
                         </LinearLayout>
 
                         <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="horizontal"
-                            android:paddingLeft="18dp"
-                            android:paddingTop="6dp"
-                            android:paddingRight="18dp"
-                            android:paddingBottom="6dp">
+                            style="@style/questionOptionsContainerStyle"
+                            android:orientation="horizontal">
 
                             <CheckBox
                                 android:id="@+id/qOneOptThree"
@@ -156,13 +146,8 @@
                         </LinearLayout>
 
                         <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="horizontal"
-                            android:paddingLeft="18dp"
-                            android:paddingTop="6dp"
-                            android:paddingRight="18dp"
-                            android:paddingBottom="6dp">
+                            style="@style/questionOptionsContainerStyle"
+                            android:orientation="horizontal">
 
                             <CheckBox
                                 android:id="@+id/qOneOptFive"
@@ -207,13 +192,8 @@
 
                         <RadioGroup
                             android:id="@+id/qTwoRadioGroup"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical"
-                            android:paddingLeft="18dp"
-                            android:paddingTop="6dp"
-                            android:paddingRight="18dp"
-                            android:paddingBottom="6dp">
+                            style="@style/questionOptionsContainerStyle"
+                            android:orientation="vertical">
 
                             <RadioButton
                                 android:layout_width="match_parent"
@@ -271,13 +251,8 @@
                             android:text="@string/question_three" />
 
                         <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="horizontal"
-                            android:paddingLeft="18dp"
-                            android:paddingTop="6dp"
-                            android:paddingRight="18dp"
-                            android:paddingBottom="6dp">
+                            style="@style/questionOptionsContainerStyle"
+                            android:orientation="horizontal">
 
                             <EditText
                                 android:id="@+id/qThreeTextEdit"
@@ -319,13 +294,8 @@
 
                         <RadioGroup
                             android:id="@+id/qFourRadioGroup"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical"
-                            android:paddingLeft="18dp"
-                            android:paddingTop="6dp"
-                            android:paddingRight="18dp"
-                            android:paddingBottom="6dp">
+                            style="@style/questionOptionsContainerStyle"
+                            android:orientation="vertical">
 
                             <RadioButton
                                 android:layout_width="match_parent"
@@ -383,13 +353,8 @@
                             android:text="@string/question_five" />
 
                         <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="horizontal"
-                            android:paddingLeft="18dp"
-                            android:paddingTop="6dp"
-                            android:paddingRight="18dp"
-                            android:paddingBottom="6dp">
+                            style="@style/questionOptionsContainerStyle"
+                            android:orientation="horizontal">
 
                             <EditText
                                 android:id="@+id/qFiveTextField"
@@ -424,13 +389,8 @@
                             android:text="@string/question_six" />
 
                         <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="horizontal"
-                            android:paddingLeft="18dp"
-                            android:paddingTop="6dp"
-                            android:paddingRight="18dp"
-                            android:paddingBottom="6dp">
+                            style="@style/questionOptionsContainerStyle"
+                            android:orientation="horizontal">
 
                             <CheckBox
                                 android:id="@+id/qSixOptOne"
@@ -452,13 +412,8 @@
                         </LinearLayout>
 
                         <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="horizontal"
-                            android:paddingLeft="18dp"
-                            android:paddingTop="6dp"
-                            android:paddingRight="18dp"
-                            android:paddingBottom="6dp">
+                            style="@style/questionOptionsContainerStyle"
+                            android:orientation="horizontal">
 
                             <CheckBox
                                 android:id="@+id/qSixOptThree"
@@ -503,13 +458,8 @@
 
                         <RadioGroup
                             android:id="@+id/qSevenRadioGroup"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical"
-                            android:paddingLeft="18dp"
-                            android:paddingTop="6dp"
-                            android:paddingRight="18dp"
-                            android:paddingBottom="6dp">
+                            style="@style/questionOptionsContainerStyle"
+                            android:orientation="vertical">
 
                             <RadioButton
                                 android:layout_width="match_parent"
@@ -567,13 +517,8 @@
                             android:text="@string/question_eight" />
 
                         <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="horizontal"
-                            android:paddingLeft="18dp"
-                            android:paddingTop="6dp"
-                            android:paddingRight="18dp"
-                            android:paddingBottom="6dp">
+                            style="@style/questionOptionsContainerStyle"
+                            android:orientation="horizontal">
 
                             <EditText
                                 android:id="@+id/qEightTextField"
