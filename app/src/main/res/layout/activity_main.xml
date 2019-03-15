@@ -185,6 +185,7 @@
                                 android:text="@string/question_two_option_one" />
 
                             <RadioButton
+                                android:id="@+id/qTwoCorrectRadioAnswer"
                                 style="@style/radioButtonsStyle"
                                 android:onClick="checkQuestionTwoAnswered"
                                 android:text="@string/question_two_option_two" />
@@ -276,6 +277,7 @@
                                 android:text="@string/question_four_option_three" />
 
                             <RadioButton
+                                android:id="@+id/qFourCorrectRadioAnswer"
                                 style="@style/radioButtonsStyle"
                                 android:onClick="checkQuestionFourAnswered"
                                 android:text="@string/question_four_option_four" />
@@ -413,6 +415,7 @@
                                 android:text="@string/question_seven_option_three" />
 
                             <RadioButton
+                                android:id="@+id/qSevenCorrectRadioAnswer"
                                 style="@style/radioButtonsStyle"
                                 android:onClick="checkQuestionSevenAnswered"
                                 android:text="@string/question_seven_option_four" />

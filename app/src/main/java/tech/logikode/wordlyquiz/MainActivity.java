@@ -240,14 +240,10 @@ public class MainActivity extends AppCompatActivity {
         }
 
         // Question two answer checking logic
-        RadioGroup qTwoRadioGroup = findViewById(R.id.qTwoRadioGroup);
+        RadioButton qTwoCorrectRadioAnswer = findViewById(R.id.qTwoCorrectRadioAnswer);
 
-        if (qTwoRadioGroup.getCheckedRadioButtonId() != -1) {
-            RadioButton qTwoSelectRadio = findViewById(qTwoRadioGroup.getCheckedRadioButtonId());
-
-            if (qTwoSelectRadio.getText().toString().matches("Zambia")) {
-                correctAnswers += 1;
-            }
+        if (qTwoCorrectRadioAnswer.isChecked()) {
+            correctAnswers += 1;
         }
 
         // Questions three answer checking logic
@@ -259,14 +255,10 @@ public class MainActivity extends AppCompatActivity {
         }
 
         // Question four answer checking logic
-        RadioGroup qFourRadioGroup = findViewById(R.id.qFourRadioGroup);
+        RadioButton qFourCorrectRadioAnswer = findViewById(R.id.qFourCorrectRadioAnswer);
 
-        if (qFourRadioGroup.getCheckedRadioButtonId() != -1) {
-            RadioButton qFourSelectedRadio = findViewById(qFourRadioGroup.getCheckedRadioButtonId());
-
-            if (qFourSelectedRadio.getText().toString().matches("Russia")) {
-                correctAnswers += 1;
-            }
+        if (qFourCorrectRadioAnswer.isChecked()) {
+            correctAnswers += 1;
         }
 
         // Question five answer checking logic
@@ -288,14 +280,10 @@ public class MainActivity extends AppCompatActivity {
         }
 
         // Question seven answer checking logic
-        RadioGroup qSevenRadioGroup = findViewById(R.id.qSevenRadioGroup);
+        RadioButton qSevenCorrectRadioAnswer = findViewById(R.id.qSevenCorrectRadioAnswer);
 
-        if (qSevenRadioGroup.getCheckedRadioButtonId() != -1) {
-            RadioButton qSevenSelectedRadio = findViewById(qSevenRadioGroup.getCheckedRadioButtonId());
-
-            if (qSevenSelectedRadio.getText().toString().matches("400 KM")) {
-                correctAnswers += 1;
-            }
+        if (qSevenCorrectRadioAnswer.isChecked()) {
+            correctAnswers += 1;
         }
 
         // Question eight answer checking logic
