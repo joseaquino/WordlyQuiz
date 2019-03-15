@@ -193,18 +193,8 @@
                     </LinearLayout>
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="32dp"
-                        android:background="#E9CF4A"
-                        android:paddingStart="6dp"
-                        android:paddingLeft="6dp"
-                        android:paddingTop="3dp"
-                        android:paddingEnd="3dp"
-                        android:paddingRight="3dp"
-                        android:paddingBottom="3dp"
-                        android:text="@string/question_one_number"
-                        android:textSize="16sp" />
+                        style="@style/quizQuestionNumberStyle"
+                        android:text="@string/question_one_number"/>
 
                 </RelativeLayout>
 
@@ -274,18 +264,8 @@
                     </LinearLayout>
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="32dp"
-                        android:background="#E9CF4A"
-                        android:paddingStart="6dp"
-                        android:paddingLeft="6dp"
-                        android:paddingTop="3dp"
-                        android:paddingEnd="3dp"
-                        android:paddingRight="3dp"
-                        android:paddingBottom="3dp"
-                        android:text="@string/question_two_number"
-                        android:textSize="16sp" />
+                        style="@style/quizQuestionNumberStyle"
+                        android:text="@string/question_two_number"/>
 
                 </RelativeLayout>
 
@@ -331,18 +311,8 @@
                     </LinearLayout>
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="32dp"
-                        android:background="#E9CF4A"
-                        android:paddingStart="6dp"
-                        android:paddingLeft="6dp"
-                        android:paddingTop="3dp"
-                        android:paddingEnd="3dp"
-                        android:paddingRight="3dp"
-                        android:paddingBottom="3dp"
-                        android:text="@string/question_three_number"
-                        android:textSize="16sp" />
+                        style="@style/quizQuestionNumberStyle"
+                        android:text="@string/question_three_number"/>
 
                 </RelativeLayout>
 
@@ -412,18 +382,8 @@
                     </LinearLayout>
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="32dp"
-                        android:background="#E9CF4A"
-                        android:paddingStart="6dp"
-                        android:paddingLeft="6dp"
-                        android:paddingTop="3dp"
-                        android:paddingEnd="3dp"
-                        android:paddingRight="3dp"
-                        android:paddingBottom="3dp"
-                        android:text="@string/question_four_number"
-                        android:textSize="16sp" />
+                        style="@style/quizQuestionNumberStyle"
+                        android:text="@string/question_four_number"/>
 
                 </RelativeLayout>
 
@@ -469,18 +429,8 @@
                     </LinearLayout>
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="32dp"
-                        android:background="#E9CF4A"
-                        android:paddingStart="6dp"
-                        android:paddingLeft="6dp"
-                        android:paddingTop="3dp"
-                        android:paddingEnd="3dp"
-                        android:paddingRight="3dp"
-                        android:paddingBottom="3dp"
-                        android:text="@string/question_five_number"
-                        android:textSize="16sp" />
+                        style="@style/quizQuestionNumberStyle"
+                        android:text="@string/question_five_number"/>
 
                 </RelativeLayout>
 
@@ -563,18 +513,8 @@
                     </LinearLayout>
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="32dp"
-                        android:background="#E9CF4A"
-                        android:paddingStart="6dp"
-                        android:paddingLeft="6dp"
-                        android:paddingTop="3dp"
-                        android:paddingEnd="3dp"
-                        android:paddingRight="3dp"
-                        android:paddingBottom="3dp"
-                        android:text="@string/question_six_number"
-                        android:textSize="16sp" />
+                        style="@style/quizQuestionNumberStyle"
+                        android:text="@string/question_six_number"/>
 
                 </RelativeLayout>
 
@@ -644,18 +584,8 @@
                     </LinearLayout>
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="32dp"
-                        android:background="#E9CF4A"
-                        android:paddingStart="6dp"
-                        android:paddingLeft="6dp"
-                        android:paddingTop="3dp"
-                        android:paddingEnd="3dp"
-                        android:paddingRight="3dp"
-                        android:paddingBottom="3dp"
-                        android:text="@string/question_seven_number"
-                        android:textSize="16sp" />
+                        style="@style/quizQuestionNumberStyle"
+                        android:text="@string/question_seven_number"/>
 
                 </RelativeLayout>
 
@@ -701,18 +631,8 @@
                     </LinearLayout>
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="32dp"
-                        android:background="#E9CF4A"
-                        android:paddingStart="6dp"
-                        android:paddingLeft="6dp"
-                        android:paddingTop="3dp"
-                        android:paddingEnd="3dp"
-                        android:paddingRight="3dp"
-                        android:paddingBottom="3dp"
-                        android:text="@string/question_eight_number"
-                        android:textSize="16sp" />
+                        style="@style/quizQuestionNumberStyle"
+                        android:text="@string/question_eight_number"/>
 
                 </RelativeLayout>
 
