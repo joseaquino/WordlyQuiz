@@ -12,6 +12,8 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
 
+import es.dmoral.toasty.Toasty;
+
 public class MainActivity extends AppCompatActivity {
 
     private int correctAnswers;
@@ -300,13 +302,20 @@ public class MainActivity extends AppCompatActivity {
      */
     private void showScore() {
         int totalQuestions = 8;
+        String message;
 
         if (toastMessage != null) {
             toastMessage.cancel();
         }
 
-        String message = "Your score is " + correctAnswers + "/" + totalQuestions;
-        toastMessage = Toast.makeText(this, message, Toast.LENGTH_LONG);
+        if (totalQuestions == correctAnswers) {
+            message = "You achieved a perfect score!!";
+            toastMessage = Toasty.success(this, message, Toast.LENGTH_LONG, true);
+        } else {
+            message = "Your score is " + correctAnswers + "/" + totalQuestions;
+            toastMessage = Toasty.info(this, message, Toast.LENGTH_LONG, true);
+        }
+
         toastMessage.show();
     }
 }
